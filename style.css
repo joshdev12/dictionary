@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container{
+   /* background-color: brown; */
+   height: 783px;
+}
+
+.inner_container{
+    padding: 7px 2%;
+    
+}
+
+
+.content{
+    background-color: #c1c1c1;
+    border-radius: 15px 1px;
+    max-width: 1493px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.content h4 {
+    font-size: 50px;
+    font-family: system-ui;
+    text-shadow: -3px 3px 1px grey;
+}
+
+form{
+    display: flex;  
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+#searchBox{
+    padding: 5px;
+    border: none;
+    border-radius: 5px;   
+    font-size: 24px;
+}
+
+.search{
+    padding: 0 3px;
+   
+}
+
+.search input {
+    font-size: 16px;
+    background: #544646;
+    color: wheat;
+    border: none;
+    border-radius: 10px;
+    padding: 11px;
+    width: 77px;
+}
+
+#display{
+    background: #8f8277ab;
+    min-height: 90vh;
+    border-radius: 47px 5px;
+    max-width: 1498px;
+    width: 100%;
+    margin-left: auto;
+    box-shadow: -4px 6px 11px 0px grey;
+    margin-right: auto;
+}
+
+.waterMark{
+    width: 100%;
+    position: fixed;
+    top: 50%;
+    left: 2%;
+    opacity: 0.6;
+    color: #64411ce8;
+}
+
+.waterMark h3 {
+    font-size: 50px;
+    text-align: center;
+    transform: rotate(327deg);
+}
+
+#display h5{
+    font-size: 28px;
+    max-width: 1070px;
+    margin: auto;
+    padding: 15px;
+    border-radius: 40px 15px;
+    border-top: 1px;
+}
+
+#display .err{
+    font-size: 28px;
+    max-width: 1070px;
+    margin: auto;
+    padding: 15px;
+    border-radius: 40px 15px;
+    color: rgb(102, 50, 50);
+}
+
+
+.inner-display{
+    font-size: 28px;
+    max-width: 1070px;
+    margin: auto;  
+    padding: 15px;    
+    border-radius: 40px 15px;
+    border-bottom: 2px groove;
+    border-top: 1px;
+}
+
+
+
+.inner-display p{
+    padding: 2%;
+    border: 1px groove gainsboro;
+
+}
+
+@media(max-width:400px){
+    form{
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    form .search{
+        padding: 10px 0;
+    }
+}
